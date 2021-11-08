@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: #D7CEC7;
+    background-color: #FFFFFF;
     scroll-behavior: smooth;
 }
 
@@ -46,8 +46,6 @@ nav {
     width: 40%;
 }
 .nav-list li {
-    border-style: solid;
-    border-width: 2px 2px;
     list-style: none;
 }
 .nav-list a {
@@ -83,7 +81,7 @@ nav {
 
 .intro-header, .about-header, .project-header {
     margin-left: 15%;
-    padding-top: 7.5%;
+    padding-top: 5%;
     font-size: 48px;
     letter-spacing: 3px;
     line-height: 1.5em;
@@ -105,7 +103,7 @@ nav {
     line-height: 1.5em;
     text-align: left;
     color: #565656;
-    width: 30%;
+    width: 32.5%;
 }
 .project-content {
     width: 100%;
@@ -113,16 +111,17 @@ nav {
 
 .aboutimg, .aboutimg2 {
     position: absolute;
+    box-shadow: 4px 4px 15px black;
     max-width: 100%;
     height: auto;
-    padding-left: 33.75%;
+    margin-left: 35.75%;
 }
 .aboutimg2 {
-    padding-left: 53.75%;
+    margin-left: 53.75%;
 }
 
 .project-container-left, .project-container-center, .project-container-right {
-    background-color: #F4DECB;
+    background-color: #fdeadf;
     width: 20%;
     height: 65vh;
     border: 1px solid black;
@@ -160,7 +159,7 @@ hr {
 }
 
 footer {
-    background-color: #FFFFFF;
+    background-color: lightgray;
     width: 100%;
     letter-spacing: 3px;
     margin-top: 7.5%;
@@ -256,7 +255,8 @@ and (max-width : 1200px) {
         font-size: 16px;
     }
     .aboutimg, .aboutimg2 {
-        padding: 0;
+        margin: 0;
+        box-shadow: 1px 1px 5px black;
         position: relative;
         width: 47.5%;
     }
@@ -268,7 +268,7 @@ and (max-width : 1200px) {
         margin: 0;
         right: 0;
         top: 7.5vh;
-        height: 80vh;
+        height: 75vh;
         width: 50%;
         background-color: #FFFFFF;
         display: flex;
