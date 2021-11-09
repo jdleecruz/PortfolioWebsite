@@ -14,10 +14,13 @@ const navSlide = () => {
             grey.style.display = "none";
             isGrey = true;
         }
+
+        hamburger.classList.toggle('x');
     });
 
     link.forEach(link => {
         link.addEventListener('click', () => {
+            isGrey = false;
             nav.classList.toggle('nav-active');
             if(isGrey === true) {
                 grey.style.display = "block";
@@ -26,6 +29,8 @@ const navSlide = () => {
                 grey.style.display = "none";
                 isGrey = true;
             }
+            
+            hamburger.classList.toggle('x');
         });
     });
 }
