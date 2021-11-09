@@ -20,7 +20,6 @@ body {
 
 /****Navigation Bar Section of Webpage****/
 nav {
-    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     min-height: 8vh;
@@ -30,11 +29,11 @@ nav {
 
 .logo {
     margin-left: 10%;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: bold;
     letter-spacing: 3px;
     color: #4C061D;
-    width: 5%;
+    width: 6%;
 }
 
 .nav-list {
@@ -51,7 +50,7 @@ nav {
     padding: 25px;
     text-decoration: none;
     letter-spacing: 3px;
-    font-size: 28px;
+    font-size: 32px;
     color: #565656;
 }
 
@@ -80,14 +79,14 @@ nav {
 
 .intro-header, .about-header, .project-header {
     margin-left: 15%;
-    padding-top: 5%;
-    font-size: 48px;
+    padding-top: 7.5%;
+    font-size: 100px;
     letter-spacing: 3px;
     line-height: 1.5em;
     text-align: left;
     color: #4C061D;
     font-weight: bold;
-    width: 35%;
+    width: 50%;
 }
 
 .about-header, .project-header {
@@ -97,13 +96,14 @@ nav {
 .intro-content, .about-content, .project-content, p {
     margin-left: 15%;
     padding-top: 1.5%;
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: 3px;
     line-height: 1.5em;
     text-align: left;
     color: #565656;
-    width: 32.5%;
+    width: 40%;
 }
+
 .project-content {
     width: 100%;
 }
@@ -111,22 +111,22 @@ nav {
 .aboutimg, .aboutimg2 {
     position: absolute;
     box-shadow: 4px 4px 15px black;
-    max-width: 100%;
-    height: auto;
-    margin-left: 35.75%;
+    width: 25%;
+    margin-left: 45%;
 }
 .aboutimg2 {
-    margin-left: 53.75%;
+    display: none;
+    margin-left: 45%;
 }
 
 .project-container-left, .project-container-center, .project-container-right {
-    background-color: #fdeadf;
+    background-color: #eff0f1;
     width: 20%;
     border: 1px solid black;
     padding-top: 1.5%;
     margin-left: 0;
-    padding: 0% 2% 2% 2%;
     text-align: center;
+    padding: 0% .75% 2% .75%;
 }
 .project-container-left {
     float: left;
@@ -140,6 +140,7 @@ nav {
     margin-left: 50%;
 }
 .project-container-header {
+    width: 100%;
     text-align: center;
     font-weight: bold;
     padding-top: 5%;
@@ -166,9 +167,9 @@ footer {
     padding-bottom: 2%;
 }
 .footer-content {
-    font-size: 24px;
-    line-height: 2em;
-    width: 30%;
+    font-size: 32px;
+    line-height: 1em;
+    width: 40%;
     margin-left: 10%;
 
 }
@@ -224,6 +225,8 @@ and (max-width : 1200px) {
         margin-top: 5%;
         margin-left: 0;
         padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
         width: 100%;
     }
     .project-container-right {
@@ -263,6 +266,9 @@ and (max-width : 1200px) {
         position: relative;
         width: 47.5%;
     }
+    .aboutimg2 {
+        display: inline-block;
+    }
     .projectimg {
         padding: 0;
     }
@@ -271,7 +277,7 @@ and (max-width : 1200px) {
         margin: 0;
         right: 0;
         top: 7.5vh;
-        height: 75vh;
+        height: 70vh;
         width: 50%;
         background-color: #FFFFFF;
         display: flex;
@@ -289,3 +295,11 @@ and (max-width : 1200px) {
 .nav-active {
     transform: translateX(0);
 }
+
+
+
+  
+
+
+
+
