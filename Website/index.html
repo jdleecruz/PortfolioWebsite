@@ -8,26 +8,24 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <div class="main" id="Top">
+        <div class="bg"></div>
         <body>
             <div id="greyout"></div>
-            <nav>
+            <nav class="main-content">
                 <div class="logo">
-                    JL-C
+                    <span style="color: #FF6A3D;">J</span>L-C
                 </div>
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#AboutMe">About</a></li>
+                    <li class="nav-item"><a href="#Skills">Skills</a></li>
                     <li class="nav-item"><a href="#Projects">Projects</a></li>
-                    <li class="nav-item"><a href="images/LeeCruzResume.pdf">Resume</a></li>
+                    <li class="nav-item"><a href="images/LeeCruzResume.pdf" target="#">Resume</a></li>
+                    <li class="nav-item"><a href="#Contact">Contact</a></li>
                 </ul>
-                <div class="links">
-                    <a href="https://github.com/jdleecruz"><i class="fa fa-github" style="font-size:36px"></i></a>
-                    <a href="https://www.linkedin.com/in/john-lee-cruz-937277201/"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
-                    <a href="mailto:jdleecruz@gmail.com"><i class="fa fa-envelope" style="font-size:36px"></i></a>
-                </div>
                 <div class="hamburger">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -35,91 +33,134 @@
                 </div>
             </nav>
 
-            <section>
+            <section class="main-content">
                 <div class="intro-header">
-                    Hello! Welcome to my Portfolio Website.
+                    Hi, I'm <span style="color: #FF6A3D;">John</span>
                 </div>
                 <div class="intro-content">
-                    My goal for this website was to just show some of my personal projects 
-                    and myself in a more interesting manner compared to that of just a classic resume.
+                    Aspiring <span style="color: #FF6A3D;">web developer</span> from Clarksville, TN.
                 </div>
             </section>
 
-            <hr>
             <section>
                 <div class="about-header" id="AboutMe">
                     About Me
                 </div>
                 <div class="about-content">
-                    <img src="images/aboutimg.jpg" alt="Personal Image" class="aboutimg">
-                    <img src="images/aboutimg2.jpg" alt="Personal Image2" class="aboutimg2">
-                    Hello! My name is John Lee-Cruz and I recently graduated from Austin Peay State University
-                    with a B.A. in Computer Science and a minor in Web Technology. 
+                    Hello! My name is <b style="color: #FF6A3D;">John Lee-Cruz</b> and I recently graduated from Austin Peay State University
+                    with a <b style="color: #FF6A3D;">B.A. in Computer Science</b> and a <b style="color: #FF6A3D;">minor in Web Technology.</b> 
                     <br><br>
-                    Currently, I am open to opprotunities concerning software development,
-                    web development, etc. I'm a diligent worker and I'm always open to learning new ideas and concepts.
-                    <br><br>
-                    I'm a video game fanatic, as video games are what made me want to be involved with this field. But I also
-                    like watching movies/anime, playing chess, and other fun activites. 
+                    Currently, I'm open to opprotunities concerning web development. 
+                    I'm a <b style="color: #FF6A3D;">motivated</b> and <b style="color: #FF6A3D;">diligent</b> worker and I'm always open to learning new ideas and concepts.
                 </div>
             </section>
 
-            <hr>
+            <section>
+                <div class="skills-header" id="Skills">
+                    Skills
+                </div>
+                <div class="skills-content">
+                    <div class="skills-container">
+                        <div class="skills-container-header">
+                            HTML
+                        </div>
+                        <img src="images/html.png" alt="HTML Image" class="skillsimg">
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-container-header">
+                            CSS
+                        </div>
+                        <img src="images/css.png" alt="CSS Image" class="skillsimg">
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-container-header">
+                            JavaScript
+                        </div>
+                        <img src="images/javascript.png" alt="JS Image" class="skillsimg">
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-container-header">
+                            Java
+                        </div>
+                        <img src="images/java.png" alt="Java Image" class="skillsimg">
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-container-header">
+                            VS Code
+                        </div>
+                        <img src="images/vscode.png" alt="VS Code Image" class="skillsimg">
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-container-header">
+                            Git
+                        </div>
+                        <img src="images/git.png" alt="Git Image" class="skillsimg">
+                    </div>
+                </div>
+            </section>
+
             <section>
                 <div class="project-header" id="Projects">
                     Projects
                 </div>
-                <p>Project source code can be found on my <a href="https://github.com/jdleecruz"><u>GitHub</u></a>.</p>
                 <div class="project-content">
                     <div class="project-container-left">
                         <div class="project-container-header">
                             Tic-Tac-Toe
                         </div>
-                        <img src="images/tictactoe.png" class="projectimg">
+                        <img src="images/tictactoe.png" alt="Tic-Tac-Toe Image" class="projectimg">
                         <br>
                         An android app of Tic-Tac-Toe which includes three variants of the original game.
                         <br><br>
-                        <u>Languages Used</u>
+                        <u>Stack</u>
                         <br><br>
-                        Java
+                        Java / Android Studio IDE
+                        <br><br>
+                        <a target="#" class="project-buttons" href="https://github.com/jdleecruz/TicTacToe">Code</a>
                     </div>
                     <div class="project-container-center">
                         <div class="project-container-header">
                             Tip Calculator
                         </div>
-                        <img src="images/tip.png" class="projectimg">
+                        <img src="images/tip.png"  alt="Tip Calculator Image" class="projectimg">
                         <br>
-                        A web app that will compute the subtotal based on cost and the desired tip and display those results.
+                        A web app that will compute the subtotal, based on cost and the desired tip. Displaying those results.
                         <br><br>
-                        <u>Languages Used</u>
+                        <u>Stack</u>
                         <br><br>
-                        HTML/CSS/JavaScript
+                        HTML / CSS / JavaScript
+                        <br><br>
+                        <a target="#" class="project-buttons" href="https://github.com/jdleecruz/TipCalculator">Code</a>
+                        <a target="#" class="project-buttons" href="https://inspiring-ride-af3747.netlify.app/">Live</a>
                     </div>
                     <div class="project-container-right">
                         <div class="project-container-header">
                             Rock Paper Scissors
                         </div>
-                        <img src="images/rps.png" class="projectimg">
+                        <img src="images/rps.png" alt="RPS Image" class="projectimg">
                         <br>
                         A web app where you can play Rock Paper Scissors versus the computer that will track the score.
                         <br><br>
-                        <u>Languages Used</u>
+                        <u>Stack</u>
                         <br><br>
-                        HTML/CSS/JavaScript
+                        HTML / CSS / JavaScript
+                        <br><br>
+                        <a target="#" class="project-buttons" href="https://github.com/jdleecruz/RockPaperScissors">Code</a>
+                        <a target="#" class="project-buttons" href="https://hungry-jones-ac3335.netlify.app/">Live</a>
                     </div>
                     <br>
                     <br><br>
-                    <a href="#Top"><u>Back to Top</u></a>
+                    <a class="upArrow" href="#Top"><u>Back to Top</u></a>
                 </div>
             </section>
 
-            <footer>
+            <footer id="Contact">
                 <p class="footer-content">PHONE <a href="tel:9315380109" class="footer-links">(931)538-0109</a></p>
                 <p class="footer-content">EMAIL <a href="mailto:jdleecruz@gmail.com" class="footer-links">jdleecruz@gmail.com</a></p>
                 <p class="footer-content">SOCIALS
                     <a href="https://www.instagram.com/jdlc_21/" class="footer-links"><i class="fa fa-instagram" style="font-size: 36px;"></i></a> 
-                    <a href="https://www.linkedin.com/in/john-lee-cruz-937277201/" class="footer-links"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
-                    <a href="https://github.com/jdleecruz" class="footer-links"><i class="fa fa-github" style="font-size:36px"></i></a>
+                    <a href="https://www.linkedin.com/in/john-lee-cruz-937277201/" class="footer-links-social"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+                    <a href="https://github.com/jdleecruz" class="footer-links-social"><i class="fa fa-github" style="font-size:36px"></i></a>
                 </p>
             </footer>
             <script src="nav.js"></script>
